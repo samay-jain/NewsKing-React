@@ -1,4 +1,4 @@
-# I have hosted this NewsKing-React news website on GitHub Pages, but since I was using the developer version of the News API, it will throw an error. You need to download and run this site on your local machine.
+#### I have hosted this NewsKing-React news website on GitHub Pages, but since I was using the developer version of the News API, it will throw an error. You need to download and run this site on your local machine😊.
 
 
 # Getting Started with Create React App
