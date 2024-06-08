@@ -8,9 +8,15 @@ export class NewsItem extends Component {
     return (
         <div className="my-3">
             <div className="card" style={{width: "22rem"}}>
-                <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left:'90%', zIndex:'1'}}>
-                  {source}
-                </span>
+
+                <div style={{display: 'flex',justifyContent: 'flex-end',position: 'absolute',right: '0'}}>
+                    <span className="badge rounded-pill bg-danger">
+                      {source}
+                    </span>
+
+                </div>
+
+                
                 <img src={!imageUrl? "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/07/07/912178-afp.jpg" : imageUrl} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
